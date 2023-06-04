@@ -1,0 +1,14 @@
+.container {
+  max-height: 100vh;
+  padding: 1.5rem;
+}
+
+.main {
+  min-height: 90vh;
+  padding: 9rem 1rem 1rem 1rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
