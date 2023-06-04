@@ -1,0 +1,36 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+  margin-top: 8rem;
+}
+
+.buttonsWrapper {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.buttonsWrapper > button {
+  width: 9rem;
+  height: 3rem;
+  font-size: 18px;
+  border: 2px black solid;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.searchButton {
+  background-color: orange;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.videoButton {
+  background-color: blue;
+  color: white;
+}
